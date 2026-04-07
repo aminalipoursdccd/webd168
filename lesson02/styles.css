@@ -1,0 +1,52 @@
+/* Headings selector updated to :is() */
+:is(h1, h2, h3) {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+/* Hyperlink styled green using descendant selector */
+article a {
+  color: green;
+}
+
+/* Apply italic styling to all h3 elements */
+h3 {
+  font-style: italic;
+}
+
+/* Custom class styling for the "Not Me!" heading */
+.not-me {
+  color: darkblue;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+/* Extra page styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+article,
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Optional modern selector examples */
+:where(article, .card) p {
+  margin-bottom: 12px;
+}
+
+.card:has(a) {
+  border-left: 6px solid teal;
+  padding-left: 16px;
+}
