@@ -83,13 +83,13 @@ body {
 }
 
 .card:first-of-type {
-  background-image: url("images/card1.jpg");
+  background-image: url("pose1.png");
 }
 
 .card:nth-of-type(2) {
-  background-image: url("images/card2.jpg");
+  background-image: url("pose2.png");
 }
 
 .card:last-of-type {
-  background-image: url("images/card3.jpg");
+  background-image: url("pose3.png");
 }
