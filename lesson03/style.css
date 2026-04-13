@@ -82,13 +82,13 @@ body {
 }
 
 .card:first-of-type {
-  background-image: url("./pose1.png");
+  background-image: url("/webd168/lesson03/pose1.png");
 }
 
 .card:nth-of-type(2) {
-  background-image: url("./pose2.png");
+  background-image: url("/webd168/lesson03/pose2.png");
 }
 
 .card:last-of-type {
-  background-image: url("./pose3.png");
+  background-image: url("/webd168/lesson03/pose3.png");
 }
