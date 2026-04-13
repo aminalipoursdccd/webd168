@@ -53,6 +53,7 @@ h1 {
   height: 200px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card-content {
@@ -82,13 +83,13 @@ h1 {
 }
 
 .card:first-of-type .card-image {
-  background-image: url("images/card1.jpg");
+  background-image: url("images/card1.jpg.png");
 }
 
 .card:nth-of-type(2) .card-image {
-  background-image: url("images/card2.jpg");
+  background-image: url("images/card2.jpg.png");
 }
 
 .card:last-of-type .card-image {
-  background-image: url("images/card3.jpg");
+  background-image: url("images/card3.jpg.png");
 }
