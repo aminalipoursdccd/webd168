@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 03 - CSS Box Model</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Understanding the CSS Box Model</h1>
+      <p class="intro">
+        Every HTML element is treated like a box. The box model helps control spacing,
+        size, and layout by using content, padding, border, and margin.
+      </p>
+    </header>
+
+    <main class="card-wrapper">
+      <section class="card">
+        <div class="card-image"></div>
+        <div class="card-content">
+          <h2>Content</h2>
+          <p>
+            The content is the text or media inside an element. It is the main part of the box.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-image"></div>
+        <div class="card-content">
+          <h2>Padding & Border</h2>
+          <p>
+            Padding adds space inside the element, while the border creates the visible edge around it.
+          </p>
+          <a href="#">View Details</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-image"></div>
+        <div class="card-content">
+          <h2>Margin</h2>
+          <p>
+            Margin adds space outside the element, separating it from other boxes on the page.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
